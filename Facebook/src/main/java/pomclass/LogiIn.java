@@ -19,6 +19,8 @@ public class LogiIn {
 	@FindBy (xpath = "//span[text()='Continue']")
 	private WebElement clickcon;
 	
+	
+	
 	public LogiIn (WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
