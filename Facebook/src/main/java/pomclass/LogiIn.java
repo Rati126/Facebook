@@ -19,7 +19,7 @@ public class LogiIn {
 	@FindBy (xpath = "//span[text()='Continue']")
 	private WebElement clickcon;
 	
-	
+
 	
 	public LogiIn (WebDriver driver)
 	{
@@ -45,6 +45,7 @@ public class LogiIn {
 	public void continubutton()
 	{
 		clickcon.click();
+		System.out.println("Hi");
 	}
 	
 	
