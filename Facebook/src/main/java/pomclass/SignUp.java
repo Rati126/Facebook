@@ -33,7 +33,7 @@ public class SignUp {
 	private WebElement month;
 	
 	@FindBy (xpath = "//select[@id='year']")
-	private WebElement year;
+	private WebElement yearinInt;
 	
 	@FindBy (xpath = "//label[text()='Female']")
 	private WebElement female;
